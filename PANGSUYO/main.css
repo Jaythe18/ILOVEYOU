@@ -1,0 +1,18 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #000000; /* Dark background color */
+}
+
+p {
+    font-size: 12px; /* Adjust font size to your liking */
+    line-height: 8px; /* Adjust line height for density */
+    text-align: center;
+    -webkit-background-size: cover;
+    background: url("pipay.jpg"); /* Replace with your image file path or URL */
+    background-position: center;
+    background-size: cover; /* or 80vh, depending on preference */
+    -webkit-background-clip: text; /* Clips the background to the shape of the text */
+    background-attachment: fixed; 
+    -webkit-text-fill-color: rgba(25, 23, 23, 0);
+}
